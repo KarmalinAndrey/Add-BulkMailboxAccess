@@ -48,6 +48,7 @@ Example users.txt:
 ivan.ivanov\@`company.com`  
 petr.petrov\@`company.com`
 alex.kim\@`company.com`
+```
 ---
 How it works
 
