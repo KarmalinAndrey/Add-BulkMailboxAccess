@@ -65,7 +65,7 @@ If a permission already exists → it is not touched
 If a permission is missing → it can be added (only in Apply mode)
 
 The script is idempotent and safe to re-run.
----
+
 ## Pre-run checklist
 
 Before running the script, make sure:
@@ -80,7 +80,7 @@ where the Exchange Online connection is active.
 
 You have sufficient permissions to manage shared mailboxes
 (same permissions as required in Azure Portal).
----
+
 ## Usage
 
 ### Dry-run (required)
@@ -100,7 +100,7 @@ show current permissions
 highlight missing permissions
 
 make no changes
----
+
 ### Apply changes
 
 ```powershell
