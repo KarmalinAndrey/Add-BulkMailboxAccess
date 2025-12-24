@@ -43,11 +43,9 @@ The script supports:
 - any combination of the above
 
 Example `users.txt`:
-```text
 ivan.ivanov@company.com
 petr.petrov@company.com, olga.sidorova@company.com
 alex.kim@company.com 
-```text
 ---
 How it works
 
