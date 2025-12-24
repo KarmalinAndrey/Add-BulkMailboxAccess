@@ -41,17 +41,16 @@ The script supports:
 - space-separated users
 - comma-separated users
 - any combination of the above
----
-
 Example users.txt:
+---
 ```md
 ivan.ivanov\@`company.com`  
 petr.petrov\@`company.com`
 alex.kim\@`company.com`
 ```
----
-How it works
 
+How it works
+---
 For each user, the script checks:
 
 FullAccess permission
