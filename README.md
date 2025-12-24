@@ -85,9 +85,9 @@ Usage
 ---
 First:
 Dry-run (required)
-.\Add-BulkMailboxAccess.ps1 `
-  -Mailbox sales@company.com `
-  -UsersFile users.txt `
+\.\Add-BulkMailboxAccess.ps1 \`
+  -Mailbox sales@company.com \`
+  -UsersFile users.txt \`
   -DryRun
 
 
@@ -102,9 +102,9 @@ make no changes
 Second:
 Apply changes
 
-.\Add-BulkMailboxAccess.ps1 `
-  -Mailbox sales@company.com `
-  -UsersFile users.txt `
+\.\Add-BulkMailboxAccess.ps1 \`
+  -Mailbox sales@company.com \`
+  -UsersFile users.txt \`
   -Apply
 
 
