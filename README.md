@@ -50,7 +50,7 @@ petr.petrov\@`company.com`
 alex.kim\@`company.com`
 ```
 
-How it works
+## How it works
 ---
 For each user, the script checks:
 
@@ -66,7 +66,7 @@ If a permission is missing → it can be added (only in Apply mode)
 
 The script is idempotent and safe to re-run.
 ---
-Pre-run checklist
+## Pre-run checklist
 
 Before running the script, make sure:
 
@@ -81,14 +81,16 @@ where the Exchange Online connection is active.
 You have sufficient permissions to manage shared mailboxes
 (same permissions as required in Azure Portal).
 
-Usage
----
-First:
-Dry-run (required)
-\.\Add-BulkMailboxAccess.ps1 \`
-  \-Mailbox sales\@company.com \`
-  \-UsersFile users.txt \`
-  \-DryRun
+## Usage
+
+### Dry-run (required)
+
+```powershell
+.\Add-BulkMailboxAccess.ps1 `
+  -Mailbox sales@company.com `
+  -UsersFile users.txt `
+  -DryRun
+
 
 
 Dry-run will:
