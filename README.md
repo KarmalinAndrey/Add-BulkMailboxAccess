@@ -86,9 +86,9 @@ Usage
 First:
 Dry-run (required)
 \.\Add-BulkMailboxAccess.ps1 \`
-  -Mailbox sales@company.com \`
-  -UsersFile users.txt \`
-  -DryRun
+  \-Mailbox sales\@company.com \`
+  \-UsersFile users.txt \`
+  \-DryRun
 
 
 Dry-run will:
@@ -103,9 +103,9 @@ Second:
 Apply changes
 
 \.\Add-BulkMailboxAccess.ps1 \`
-  -Mailbox sales@company.com \`
-  -UsersFile users.txt \`
-  -Apply
+  \-Mailbox sales\@company.com \`
+  \-UsersFile users.txt \`
+  \-Apply
 
 
 Before applying changes, the script will ask for explicit confirmation.
