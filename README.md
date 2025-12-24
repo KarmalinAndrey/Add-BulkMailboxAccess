@@ -90,7 +90,7 @@ You have sufficient permissions to manage shared mailboxes
   -Mailbox sales@company.com `
   -UsersFile users.txt `
   -DryRun
-
+```
 
 
 Dry-run will:
@@ -101,13 +101,13 @@ highlight missing permissions
 
 make no changes
 
-Second:
-Apply changes
+### Apply changes
 
-\.\Add-BulkMailboxAccess.ps1 \`
-  \-Mailbox sales\@company.com \`
-  \-UsersFile users.txt \`
-  \-Apply
-
+```powershell
+.\Add-BulkMailboxAccess.ps1 `
+  -Mailbox sales\@company.com `
+  -UsersFile users.txt `
+  -Apply
+```
 
 Before applying changes, the script will ask for explicit confirmation.
