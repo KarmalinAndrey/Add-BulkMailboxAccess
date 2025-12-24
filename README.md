@@ -41,6 +41,7 @@ The script supports:
 - space-separated users
 - comma-separated users
 - any combination of the above
+
 Example users.txt:
 ---
 ```md
