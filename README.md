@@ -42,9 +42,9 @@ The script supports:
 - comma-separated users
 - any combination of the above
 ---
-```md
-Example users.txt:
 
+Example users.txt:
+```md
 ivan.ivanov\@`company.com`  
 petr.petrov\@`company.com`
 alex.kim\@`company.com`
