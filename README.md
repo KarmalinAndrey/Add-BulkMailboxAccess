@@ -49,9 +49,9 @@ ivan.ivanov\@`company.com`
 petr.petrov\@`company.com`
 alex.kim\@`company.com`
 ```
-
-## How it works
 ---
+## How it works
+
 For each user, the script checks:
 
 FullAccess permission
@@ -80,7 +80,7 @@ where the Exchange Online connection is active.
 
 You have sufficient permissions to manage shared mailboxes
 (same permissions as required in Azure Portal).
-
+---
 ## Usage
 
 ### Dry-run (required)
@@ -100,7 +100,7 @@ show current permissions
 highlight missing permissions
 
 make no changes
-
+---
 ### Apply changes
 
 ```powershell
