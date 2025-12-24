@@ -80,8 +80,9 @@ where the Exchange Online connection is active.
 
 You have sufficient permissions to manage shared mailboxes
 (same permissions as required in Azure Portal).
----
+
 Usage
+---
 1. Dry-run (required)
 .\Add-BulkMailboxAccess.ps1 `
   -Mailbox sales@company.com `
@@ -96,8 +97,9 @@ show current permissions
 highlight missing permissions
 
 make no changes
----
+
 2. Apply changes
+
 .\Add-BulkMailboxAccess.ps1 `
   -Mailbox sales@company.com `
   -UsersFile users.txt `
