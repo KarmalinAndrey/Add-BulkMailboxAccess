@@ -6,7 +6,7 @@ to a large number of users in Microsoft Exchange Online.
 This tool is designed for bulk operations with maximum safety:
 no existing permissions are removed or modified.
 
----
+
 
 ## Purpose
 
@@ -18,7 +18,7 @@ This script allows you to:
 - add only missing permissions
 - avoid accidental changes
 
----
+
 
 ## Features
 
@@ -30,7 +30,7 @@ This script allows you to:
 - Colorized console output
 - Detailed audit logging to file
 
----
+
 
 ## Input format
 
@@ -43,13 +43,13 @@ The script supports:
 - any combination of the above
 
 Example users.txt:
----
+
 ```md
 ivan.ivanov\@`company.com`  
 petr.petrov\@`company.com`
 alex.kim\@`company.com`
 ```
----
+
 ## How it works
 
 For each user, the script checks:
