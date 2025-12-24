@@ -83,7 +83,8 @@ You have sufficient permissions to manage shared mailboxes
 
 Usage
 ---
-1. Dry-run (required)
+First:
+Dry-run (required)
 .\Add-BulkMailboxAccess.ps1 `
   -Mailbox sales@company.com `
   -UsersFile users.txt `
@@ -98,7 +99,8 @@ highlight missing permissions
 
 make no changes
 
-2. Apply changes
+Second:
+Apply changes
 
 .\Add-BulkMailboxAccess.ps1 `
   -Mailbox sales@company.com `
